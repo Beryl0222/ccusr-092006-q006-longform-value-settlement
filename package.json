@@ -1,0 +1,10 @@
+{
+  "name": "longform-value-settlement",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "长内容价值结算领域资料",
+  "scripts": {
+    "test": "node --test"
+  }
+}
