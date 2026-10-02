@@ -1,6 +1,7 @@
-// longform_value_settlement 领域资料的基础结构。
+// 领域资料的兼容入口：事件种类与字段校验统一以 domain/ 下的实现为准。
+export { EVENT_KINDS } from "./domain/constants.js";
+import { EVENT_KINDS } from "./domain/constants.js";
 
-export const EVENT_KINDS = Object.freeze(["WORK_REGISTERED", "VALUE_SIGNAL_INGESTED", "ANOMALY_EXCLUDED", "PERIOD_CLOSED", "ADJUSTMENT_POSTED"]);
 export const REQUIRED_FIELDS = Object.freeze(["event_id", "kind", "occurred_at", "subject_id", "payload"]);
 
 export function validateEvent(record) {

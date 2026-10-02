@@ -10,3 +10,7 @@ coverage/
 __pycache__/
 *.py[cod]
 .DS_Store
+
+# 运行时事件日志与本地数据
+data/*.jsonl
+*.jsonl.bak
