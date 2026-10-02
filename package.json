@@ -3,8 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "长内容价值结算领域资料",
+  "description": "长内容价值结算后端：可复算结算单、反作弊、周期封账与双角色人工修正",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "start": "node src/main.js",
+    "demo": "node scripts/demo.js"
   }
 }

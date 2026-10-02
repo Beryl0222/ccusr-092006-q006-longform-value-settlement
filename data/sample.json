@@ -2,8 +2,20 @@
   "event_id": "sample-006-001",
   "kind": "WORK_REGISTERED",
   "occurred_at": "2026-09-20T09:00:00+08:00",
-  "subject_id": "demo-006",
+  "subject_id": "demo-work-006",
   "payload": {
+    "work_id": "demo-work-006",
+    "version": "v1.0",
+    "content_hash": "sha256:demo-only",
+    "duration_seconds": 1800,
+    "author_id": "demo-author-006",
+    "published_at": "2026-09-20T09:00:00+08:00",
+    "applicable_signals": [
+      "CROSS_DAY_COMPLETION",
+      "FAVORITE_THEN_OPEN",
+      "MEANINGFUL_DISCUSSION",
+      "CROSS_DAY_REVISIT"
+    ],
     "note": "虚构资料，仅用于格式核对"
   }
 }
